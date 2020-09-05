@@ -15,9 +15,6 @@ require_once ("BdCursos.php"); //archivo que contiene la clase que edita la BD c
      /*
       * Gestion de personal de la base de datos
       */
-	 case "prueba":
-		echo '{"data":"'.$_REQUEST['data'].'"}';//se trata de una pequeña prueba que se puede utilizar para ver si se comunica con la api
-		break;
      case "registrarPersonal":
          $resultado = false;
          $bd = new BdPersonal();    //esta funcion de la API crea usuarios nuevos en la base de datos al recibir los datos de un formulario
